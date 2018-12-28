@@ -22,12 +22,12 @@ bash run.sh
 This will run the python code in file main.py.
 Then the python code will train a feedforward neural network,and test the model.
 At the end of the program,we plot a figure that record the value of train_loss,test_loss,
-and the value of train_accuracy, test_accuracy.
+and the value of train_accuracy, test_accuracy.  
 
 
-accuracy:
+accuracy:  
 ![Alt](https://github.com/darr/backprop/raw/master/train_acc_and_test_acc.png#pic_center)
-loss:
+loss:  
 ![Alt](https://github.com/darr/backprop/raw/master/train_loss_and_test_loss.png#pic_center)
 
 The output when run the python code is printed below.
