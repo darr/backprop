@@ -20,6 +20,7 @@ bash run.sh
 ```
 
 This will run the python code in file main.py.  
+The python code can run in both python2 and python3.  
 Then the python code will train a feedforward neural network,and test the model.  
 At the end of the program,we plot a figure that record the value of train_loss,test_loss,  
 and the value of train_accuracy, test_accuracy.  
