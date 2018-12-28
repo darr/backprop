@@ -25,7 +25,6 @@ At the end of the program,we plot a figure that record the value of train_loss,t
 and the value of train_accuracy, test_accuracy.
 
 
-The figure:
 accuracy:
 ![Alt](https://github.com/darr/backprop/raw/master/train_acc_and_test_acc.png#pic_center)
 loss:
