@@ -1,4 +1,4 @@
-# replementation of the backword propagation.
+# Implementation of the backword propagation.
 
 frist your envoriment has the virtualenv, python2 python3
 
