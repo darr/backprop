@@ -24,7 +24,15 @@ Then the python code will train a feedforward neural network,and test the model.
 At the end of the program,we plot a figure that record the value of train_loss,test_loss,
 and the value of train_accuracy, test_accuracy.
 
+
+The figure:
+accuracy:
+![Alt](https://github.com/darr/backprop/raw/master/train_acc_and_test_acc.png#pic_center)
+loss:
+![Alt](https://github.com/darr/backprop/raw/master/train_loss_and_test_loss.png#pic_center)
+
 The output when run the python code is printed below.
+
 ```shell
 pyperparameters:
 learn_rate:0.001
