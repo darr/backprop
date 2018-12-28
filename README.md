@@ -1,29 +1,30 @@
 # Implementation of the backword propagation.
 
-frist your envoriment has the virtualenv, python2 python3
+Frist assume that your environment has installed the virtualenv, python2 and python3.Then run the shell code below:
 
-then run shell code below
 ```shell
 bash create_env.sh
 ```
 
-this will create the envoriment that the python codes which needed when run it.
-Indeed it will create a fold under the path '/home/user_name/.backprob/' or we can say '~/.backprob/'
-run shell below can remove the virtual envoriment that you have create above, if you need.
+This will create the environment that the python codes which needed when run it.
+Indeed it will create a fold under the path '/home/user_name/.backprob/' or we can say '~/.backprob/'.
+Run the shell code below, it can remove the virtual environment that you have create above,while if you need.
+
 ```shell
 bash remove_env.sh
 ```
 
-And then run shell code below
+And then run the shell code below:
 ```shell
 bash run.sh
 ```
+
 This will run the python code in file main.py.
 Then the python code will train a feedforward neural network,and test the model.
-At the end of the programe,we plot a figure that record the value of train_loss,test_loss,
-and the value train_accuracy, test_accuracy.
+At the end of the program,we plot a figure that record the value of train_loss,test_loss,
+and the value of train_accuracy, test_accuracy.
 
-Below is the output when run the python code.
+The output when run the python code is printed below.
 ```shell
 pyperparameters:
 learn_rate:0.001
