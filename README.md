@@ -1,36 +1,36 @@
 # Implementation of the backword propagation.
 
-Frist assume that your environment has installed the virtualenv, python2 and python3.Then run the shell code below:
+Frist assume that your environment has installed the virtualenv, python2 and python3.Then run the shell code below:  
 
 ```shell
 bash create_env.sh
 ```
 
-This will create the environment that the python codes which needed when run it.
-Indeed it will create a fold under the path '/home/user_name/.backprob/' or we can say '~/.backprob/'.
-Run the shell code below, it can remove the virtual environment that you have create above,while if you need.
+This will create the environment that the python codes which needed when run it.  
+Indeed it will create a fold under the path '/home/user_name/.backprob/' or we can say '~/.backprob/'.  
+Run the shell code below, it can remove the virtual environment that you have create above,while if you need.  
 
 ```shell
 bash remove_env.sh
 ```
 
-And then run the shell code below:
+And then run the shell code below:  
 ```shell
 bash run.sh
 ```
 
-This will run the python code in file main.py.
-Then the python code will train a feedforward neural network,and test the model.
-At the end of the program,we plot a figure that record the value of train_loss,test_loss,
+This will run the python code in file main.py.  
+Then the python code will train a feedforward neural network,and test the model.  
+At the end of the program,we plot a figure that record the value of train_loss,test_loss,  
 and the value of train_accuracy, test_accuracy.  
 
 
 accuracy:  
-![Alt](https://github.com/darr/backprop/raw/master/train_acc_and_test_acc.png#pic_center)
+![Alt](https://github.com/darr/backprop/raw/master/train_acc_and_test_acc.png#pic_center)  
 loss:  
-![Alt](https://github.com/darr/backprop/raw/master/train_loss_and_test_loss.png#pic_center)
+![Alt](https://github.com/darr/backprop/raw/master/train_loss_and_test_loss.png#pic_center)  
 
-The output when run the python code is printed below.
+The output when run the python code is printed below.  
 
 ```shell
 pyperparameters:
